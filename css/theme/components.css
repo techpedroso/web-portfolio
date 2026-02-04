@@ -1,0 +1,39 @@
+/* button */
+.btn {
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-sm);
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  text-align: center;
+  transition: 0.3s ease, transform 0.2s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn--primary {
+  background: var(--color-primary);
+  color: var(--color-btn-text);
+}
+
+.btn--primary:hover {
+  background: var(--color-secondary);
+  color: var(--color-btn-text);
+}
+
+.btn--small {
+  max-width: 20%;
+}
+
+/* icon */
+.icon {
+  border: none;
+  background-color: transparent;
+}
+
+.icon-sm {
+  max-width: 1rem;
+}
+
+.icon-md {
+  max-width: 1.5rem;
+}

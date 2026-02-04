@@ -1,0 +1,23 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name-title {
+    font-size: 2rem;
+    font-weight: var(--font-w-600);
+    color: var(--color-contrast-text);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+.nav-container a {
+    font-size: 1rem;
+    color: var(--color-contrast-text);
+}
