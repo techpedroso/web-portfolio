@@ -42,7 +42,7 @@
     --radius-md: 12px;
 
     /* Shadow */
-    --shadow-sm: 0 4px 20px rgba(0, 0, 0, 0.2);
+    --shadow-sm: ;
 }
 
 :root[data-theme="light"] {
@@ -51,7 +51,7 @@
     --color-secondary: var(--color-purple);
     --color-base-text: var(--color-offwhite);
     --color-contrast-text: var(--color-darkgray);
-    --color-btn-text: var(--color-offwhite);
+    --color-btn-text: var(--color-darkgray);
 
     --shadow-sm: 0 8px 24px rgba(0, 0, 0, 0.08);
 }
@@ -60,7 +60,7 @@
     --color-background: var(--color-darkgray);
     --color-primary: var(--color-lilac);
     --color-secondary: var(--color-purple);
-    --color-base-text: var(--color-darkgray);
+    --color-base-text: var(--color-offwhite);
     --color-contrast-text: var(--color-offwhite);
     --color-btn-text: var(--color-darkgray);
 

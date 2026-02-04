@@ -17,7 +17,7 @@
 
 .btn--primary:hover {
   background: var(--color-secondary);
-  color: var(--color-btn-text);
+  color: var(--color-base-text);
 }
 
 .btn--small {
@@ -36,4 +36,8 @@
 
 .icon-md {
   max-width: 1.5rem;
+}
+
+.icon-x {
+  max-width: 2rem;
 }
