@@ -24,6 +24,11 @@
   max-width: 20%;
 }
 
+/* images */
+.img-300 {
+  max-width: 300px;
+}
+
 /* icon */
 .icon {
   border: none;
