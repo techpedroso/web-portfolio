@@ -6,7 +6,7 @@ const enUS = {
   //Introduction section
   p_intro_i: "I’m a UX/UI designer based in Vancouver, with a background in teaching and customer-facing roles that strengthened my communication, empathy, and problem-solving skills.",
   p_intro_ii: "I recently completed a UX/UI Design Diploma, I’ve worked on projects involving user research, wireframing, prototyping, usability testing, and design systems. My approach combines creativity with analytical thinking, always keeping accessibility and inclusivity at the center.",
-  p_intro_iii: "Through the exchange program I am doing in Canada, this experience has allowed me to develop not only technical skills, but also communication skills.",
+  p_intro_iii: "Through my exchange program in Canada, I developed both technical and communication skills.",
   p_intro_iv: "I’m especially interested in user-centered design, branding, and digital products that connect strategy, usability, and aesthetics.",
   p_intro_v: "I believe great design goes beyond visuals — it’s about understanding users’ needs and delivering meaningful experiences that align with business goals.",
 

@@ -9,9 +9,6 @@ const languages = {
 function initI18n() {
   const btn = document.getElementById("language-changer");
   
-  console.log("hello");
-  
-
   let currentLanguage = localStorage.getItem("lang") || "en";
 
   // intern function to change the texts

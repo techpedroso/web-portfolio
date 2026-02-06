@@ -13,9 +13,11 @@
 :root {
     /*Theme colors*/
     --color-brown: #6F4E37;
-    --color-purple: #7B3FE4;
+    --color-purple: #9c6af1;
     --color-lilac: #E2D9F3;
     --color-offwhite: #F7F5F2;
+    --color-offwhiteplus: #F2EFE9;
+    --color-offwhiteplus-contrast: #CFCFCF;
     --color-darkgray: #1E1E1E;
 
     --color-blur: ;
@@ -26,6 +28,7 @@
     --color-secondary: ;
     --color-base-text: ;
     --color-contrast-text: ;
+    --color-contrast: ;
 
     /* Typography */
     --font-base: Poppins, system-ui, sans-serif;
@@ -54,8 +57,13 @@
     --color-background: var(--color-offwhite);
     --color-primary: var(--color-lilac);
     --color-secondary: var(--color-purple);
+
     --color-base-text: var(--color-offwhite);
     --color-contrast-text: var(--color-darkgray);
+
+    --color-contrast: var(--color-offwhiteplus);
+    --color-contrast-contrast: var(--color-offwhiteplus-contrast);
+
     --color-btn-text: var(--color-darkgray);
 
     --color-blur: rgba(255, 255, 255, 0.5);

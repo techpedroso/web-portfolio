@@ -9,7 +9,8 @@ h1, .title {
 }
 
 h2, .sub-title {
-  font-size: 1.8rem;
+  letter-spacing: 2px;
+  font-size: 1rem;
 }
 
 h3 {
@@ -22,7 +23,25 @@ p {
   color: var(--color-contrast-text);
 }
 
+.project-title {
+  font-family: 'DM Serif Display';
+  letter-spacing: 2px;
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .sub-title {
   color: var(--color-secondary);
   text-transform: uppercase;
+}
+
+.emphasis {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+/* Customs */
+
+.split-card-p {
+  font-size: 0.8rem;
 }

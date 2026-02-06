@@ -74,3 +74,37 @@
 .icon-x {
   max-width: 2rem;
 }
+
+.icon-card-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 3rem;
+  padding: var(--space-1);
+
+  background-color: var(--color-lilac);
+  border-radius: var(--radius-sm);
+
+  transition: 0.3s ease, transform 0.2s ease;
+}
+
+.split-card:hover .icon-card-bg {
+  background-color: #dcc7ff;
+}
+
+/* emphasis card */
+.emphasis-card {
+  background-color: var(--color-contrast);
+  border: 1.1px solid var(--color-contrast-contrast);
+  border-radius: var(--radius-x);
+  box-shadow: var(--shadow-sm);
+  transition: 0.3s ease, transform 0.2s ease;
+}
+
+.project-tag {
+  width: fit-content;
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-xl);
+  background-color: var(--color-lilac);
+}
