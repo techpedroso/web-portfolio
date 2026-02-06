@@ -1,4 +1,4 @@
-function carousel() {
+function initCarousel() {
     const track = document.getElementById('track');
     const items = document.querySelectorAll('.item');
     const nextBtn = document.getElementById('nextBtn');
@@ -25,22 +25,22 @@ function carousel() {
         resetTimer();
     }
 
-    // Eventos dos Botões
+    // nav btns
     nextBtn.addEventListener('click', nextSlide);
     prevBtn.addEventListener('click', prevSlide);
 
-    // Lógica do Autoplay
+    // Autoplay
     let autoPlay = setInterval(nextSlide, 5000);
 
     function resetTimer() {
         clearInterval(autoPlay);
-        autoPlay = setInterval(nextSlide, 5000);
+        autoPlay = setInterval(nextSlide, 3000);
     }
 
-    // Pausa ao passar o mouse
-    const wrapper = document.getElementById('wrapper');
-    wrapper.addEventListener('mouseenter', () => clearInterval(autoPlay));
-    wrapper.addEventListener('mouseleave', () => autoPlay = setInterval(nextSlide, 5000));
+    // mouse hover = pause (it's lagging)
+    // const wrapper = document.getElementById('wrapper');
+    // wrapper.addEventListener('mouseenter', () => clearInterval(autoPlay));
+    // wrapper.addEventListener('mouseleave', () => autoPlay = setInterval(nextSlide, 5000));
 }
 
-export default carousel;
+export default initCarousel;

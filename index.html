@@ -21,11 +21,16 @@
             </button>
 
             <div class="nav-container">
-                <a href="#about">About</a>
+                <a data-i18n="a_about" href="#about">About</a>
                 <a href="./files/portfolio.pdf" download>Portfolio</a>
-                <a href="mailto:example@example.com">Contact</a>
+                <a data-i18n="a_contact" href="mailto:example@example.com">Contact</a>
 
                 <span class="divider"></span>
+
+
+                <button id="language-changer" class="icon" aria-label="Toggle theme">
+                    <img class="click icon-x" src="./assets/language.png" alt="theme icon">
+                </button>
 
                 <button id="theme-toggle" class="icon" aria-label="Toggle theme">
                     <img id="theme-icon" class="click icon-x" src="./assets/sun.png" alt="theme icon">
@@ -35,13 +40,18 @@
     </header>
 
     <main>
+        <!-- Introduction -->
         <section class="section container split split--content-img first-container">
             <div class="content">
+                <h2 class="sub-title">Yasmin Cardoso</h2>
                 <h1>UX/UI Designer</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, molestias ea. Tenetur officiis et
-                    sed fugiat, deserunt qui officia reiciendis expedita, atque consequuntur quidem, placeat voluptates
-                    nulla similique maxime minima.</p>
-                <a href="mailto:example@example.com" class="btn btn--primary btn--small">
+                <p data-i18n="p_intro_i">
+                    I’m a UX/UI designer based in Vancouver, with a background in teaching and customer-facing roles that strengthened my communication, empathy, and problem-solving skills.
+                </p>
+                <p data-i18n="p_intro_ii">
+                    I recently completed a UX/UI Design Diploma, I’ve worked on projects involving user research, wireframing, prototyping, usability testing, and design systems. My approach combines creativity with analytical thinking, always keeping accessibility and inclusivity at the center.
+                </p>
+                <a data-i18n="a_contact" href="mailto:example@example.com" class="btn btn--primary btn--small">
                     Contact
                 </a>
             </div>
@@ -54,16 +64,46 @@
         <section class="section container split split--img-content">
             <div class="content">
                 <h2 class="title">UX/UI Designer</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, molestias ea. Tenetur officiis et
-                    sed fugiat, deserunt qui officia reiciendis expedita, atque consequuntur quidem, placeat voluptates
-                    nulla similique maxime minima.</p>
-                <a href="mailto:example@example.com" class="btn btn--primary btn--small">
-                    Contact
-                </a>
+                <p data-i18n="p_intro_iii">
+                    Through the exchange program I am doing in Canada, this experience has allowed me to develop not only technical skills, but also communication skills.
+                </p>
+                <p data-i18n="p_intro_iv">
+                    I’m especially interested in user-centered design, branding, and digital products that connect strategy, usability, and aesthetics.
+                </p>
+                <p data-i18n="p_intro_v">
+                    I believe great design goes beyond visuals — it’s about understanding users’ needs and delivering meaningful experiences that align with business goals.
+                </p>
             </div>
 
             <div class="media">
                 <img src="./assets/yasmin-formatura-2.png" alt="Portrait of YAS">
+            </div>
+        </section>
+
+        <!-- Cards section -->
+        <section class="section container card-container">
+            <div class="card">
+                <div class="card-title">
+                    <img class="icon-x" src="./assets/cards/pen.png" alt="">
+                    <h3>UX/UI Designer</h3>
+                </div>
+                <p data-i18n="p_designer">I apply user-centered design principles to create intuitive and well-structured digital experiences. My skills include understanding user needs, organizing information, designing user flows, wireframes, and interfaces with a focus on usability, visual hierarchy, and consistency.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-title">
+                    <img class="icon-x" src="./assets/cards/wrench.png" alt="">
+                    <h3 data-i18n="tools">Tools</h3>
+                </div>
+                <p data-i18n="p_tools">I work mainly with Figma throughout my design process, from early wireframes to high-fidelity interfaces and prototypes. I’m currently learning to use Adobe tools and remain open to exploring new tools and technologies that can support and improve my design workflow.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-title">
+                    <img class="icon-x" src="./assets/cards/chat.png" alt="">
+                    <h3 data-i18n="communication">Communication</h3>
+                </div>
+                <p data-i18n="p_communication">Through my experience working with customer service and as an English teacher, I developed strong communication skills and the ability to explain ideas clearly, listen actively, and adapt my approach to different people and contexts. These experiences strongly influence the way I collaborate and design with empathy.</p>
             </div>
         </section>
 
@@ -72,21 +112,34 @@
         <!-- Main project (Carousel) -->
         <section class="section container carousel-container-split">
             <div class="content">
-                <h2 class="title">UX/UI Designer</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, molestias ea. Tenetur officiis et
+                <h2 data-i18n="main_project" class="sub-title">Main project</h2>
+                <h2 class="title">Trip on the way</h2>
+                <p data-i18n="p_main_project_i">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, molestias ea. Tenetur officiis et
                     sed fugiat, deserunt qui officia reiciendis expedita, atque consequuntur quidem, placeat voluptates
                     nulla similique maxime minima.</p>
-                <a href="mailto:example@example.com" class="btn btn--primary btn--small">
-                    Full Project
+                <a data-i18n="a_project_portfolio" href="mailto:example@example.com" class="btn btn--primary btn--small">
+                    Project Portfolio
                 </a>
             </div>
 
             <div class="carousel-wrapper" id="wrapper">
                 <div class="carousel-track" id="track">
-                    <div class="item"><img class="img-300" src="https://picsum.photos/400/500?random=1" alt="1"></div>
-                    <div class="item"><img class="img-300" src="https://picsum.photos/400/500?random=2" alt="2"></div>
-                    <div class="item"><img class="img-300" src="https://picsum.photos/400/500?random=3" alt="3"></div>
-                    <div class="item"><img class="img-300" src="https://picsum.photos/400/500?random=4" alt="4"></div>
+                    <div class="item"><img class="img-300" src="./assets/main-project-images/m-one.png"
+                            alt="main project home app page"></div>
+                    <div class="item"><img class="img-300" src="./assets/main-project-images/m-two.png"
+                            alt="main project trips app page"></div>
+                    <div class="item"><img class="img-300" src="./assets/main-project-images/m-three.png"
+                            alt="main project trips app page"></div>
+                    <div class="item"><img class="img-300" src="./assets/main-project-images/m-four.png"
+                            alt="main project home app page"></div>
+                    <div class="item"><img class="img-300" src="./assets/main-project-images/m-one.png"
+                            alt="main project home app page"></div>
+                    <div class="item"><img class="img-300" src="./assets/main-project-images/m-two.png"
+                            alt="main project trips app page"></div>
+                    <div class="item"><img class="img-300" src="./assets/main-project-images/m-three.png"
+                            alt="main project trips app page"></div>
+                    <div class="item"><img class="img-300" src="./assets/main-project-images/m-four.png"
+                            alt="main project home app page"></div>
                 </div>
 
                 <div class="nav-controls">
@@ -97,15 +150,12 @@
         </section>
 
         <!-- Other projects -->
-        <section class="section container split split--img-content">
+        <section class="section container split split--img-content vertical-card">
             <div class="content">
-                <h2 class="title">UX/UI Designer</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, molestias ea. Tenetur officiis et
-                    sed fugiat, deserunt qui officia reiciendis expedita, atque consequuntur quidem, placeat voluptates
-                    nulla similique maxime minima.</p>
-                <a href="mailto:example@example.com" class="btn btn--primary btn--small">
-                    Contact
-                </a>
+                <h2 class="title">CCTB UI/UX Redesign</h2>
+                <p data-i18n="p_cctb">This redesign aimed to improve usability in the student portal experience. The focus was on simplifying navigation, eliminating confusing and non-functional elements, and improving information hierarchy to create a more intuitive and efficient interface.
+                </p>
+                <a class="btn btn--primary btn--small" href="./files/portfolio.pdf" download>Portfolio</a>
             </div>
 
             <div class="media">
@@ -115,13 +165,10 @@
 
         <section class="section container split split--content-img">
             <div class="content">
-                <h2 class="title">UX/UI Designer</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, molestias ea. Tenetur officiis et
-                    sed fugiat, deserunt qui officia reiciendis expedita, atque consequuntur quidem, placeat voluptates
-                    nulla similique maxime minima.</p>
-                <a href="mailto:example@example.com" class="btn btn--primary btn--small">
-                    Contact
-                </a>
+                <h2 class="title">Healthy</h2>
+                <p data-i18n="p_healthy">This project focused on simplifying the management of medications and medical appointments. The main goal was to create a clear, organized, and accessible system with reminders that help users stay consistent with their treatments.
+                </p>
+                <a class="btn btn--primary btn--small" href="./files/portfolio.pdf" download>Portfolio</a>
             </div>
 
             <div class="media">
@@ -131,17 +178,15 @@
 
         <section class="section container split split--img-content">
             <div class="content">
-                <h2 class="title">UX/UI Designer</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, molestias ea. Tenetur officiis et
-                    sed fugiat, deserunt qui officia reiciendis expedita, atque consequuntur quidem, placeat voluptates
-                    nulla similique maxime minima.</p>
-                <a href="mailto:example@example.com" class="btn btn--primary btn--small">
-                    Contact
-                </a>
+                <h2 class="title">weBranding</h2>
+                <p data-i18n="p-webrangind">WeBranding is a digital platform designed to help new entrepreneurs build a strong brand identity from scratch. The project focused on guiding users through a structured, step-by-step process that goes beyond visuals, emphasizing brand purpose, values, and positioning to create consistent and meaningful identities.
+                </p>
+                <a class="btn btn--primary btn--small" href="./files/portfolio.pdf" download>Portfolio</a>
             </div>
 
             <div class="media">
-                <img src="./assets/project-images/we-branding-project.png" alt="Portrait of YAS">
+                <img style="border-radius: 24px;" src="./assets/project-images/we-branding-project.png"
+                    alt="Portrait of YAS">
             </div>
         </section>
     </main>

@@ -1,4 +1,4 @@
-function menuMobile() {
+function initMenuMobile() {
     const menuBtn = document.querySelector('.mobile-menu-btn');
     const navContainer = document.querySelector('.nav-container');
 
@@ -15,4 +15,4 @@ function menuMobile() {
     });
 }
 
-export default menuMobile;
+export default initMenuMobile;

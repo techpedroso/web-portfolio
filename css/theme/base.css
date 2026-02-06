@@ -18,6 +18,8 @@
     --color-offwhite: #F7F5F2;
     --color-darkgray: #1E1E1E;
 
+    --color-blur: ;
+
     /* Elements */
     --color-background: ;
     --color-primary: ;
@@ -40,9 +42,12 @@
     /* Radius */
     --radius-sm: 6px;
     --radius-md: 12px;
+    --radius-x: 16px;
+    --radius-xl: 24px;
 
     /* Shadow */
     --shadow-sm: ;
+    --shadow-md: ;
 }
 
 :root[data-theme="light"] {
@@ -53,7 +58,10 @@
     --color-contrast-text: var(--color-darkgray);
     --color-btn-text: var(--color-darkgray);
 
+    --color-blur: rgba(255, 255, 255, 0.5);
+
     --shadow-sm: 0 8px 24px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.16);
 }
 
 :root[data-theme="dark"] {
@@ -64,8 +72,10 @@
     --color-contrast-text: var(--color-offwhite);
     --color-btn-text: var(--color-darkgray);
 
+    --color-blur: rgba(0, 0, 0, 0.1);
 
     --shadow-sm: 0 4px 20px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.8);
 }
 
 html {

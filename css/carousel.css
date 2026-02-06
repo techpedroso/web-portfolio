@@ -57,7 +57,7 @@
 }
 
 .nav-controls button:hover {
-    background: #007bff;
+    background: var(--color-secondary);
     color: white;
 }
 

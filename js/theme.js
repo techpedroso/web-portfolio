@@ -1,4 +1,4 @@
-function changeTheme() {
+function initChangeTheme() {
     const toggle = document.getElementById('theme-toggle');
     const icon = document.getElementById('theme-icon');
     if (!toggle || !icon) return;
@@ -30,4 +30,4 @@ function changeTheme() {
     });
 }
 
-export default changeTheme;
+export default initChangeTheme;

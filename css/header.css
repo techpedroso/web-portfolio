@@ -4,7 +4,9 @@
     left: 0;
     width: 100%;
     z-index: 10;
-    background: var(--color-background);
+    background: var(--color-blur);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 
     box-shadow: var(--shadow-sm);
 }
