@@ -20,7 +20,7 @@ h3 {
 p {
   max-width: 60ch;
 
-  color: var(--color-contrast-text);
+  color: var(--color-base-text);
 }
 
 .project-title {
@@ -28,6 +28,11 @@ p {
   letter-spacing: 2px;
   font-size: 3rem;
   line-height: 1;
+
+  color: var(--project-title);
+}
+
+.title {
 }
 
 .sub-title {
@@ -36,12 +41,29 @@ p {
 }
 
 .emphasis {
-  font-size: 0.8rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.color-emphasis {
+  font-style: italic;
+  color: var(--color-purple-plus);
 }
 
 /* Customs */
 
 .split-card-p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  :root p {
+    font-size: 14px;
+  }
+
+  
 }

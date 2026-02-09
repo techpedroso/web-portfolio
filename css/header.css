@@ -38,3 +38,9 @@
     font-size: 1.3rem;
     color: var(--color-contrast-text);
 }
+
+@media (max-width: 768px) {
+    .header, .nav {
+        max-width: 100vw;
+    }
+}

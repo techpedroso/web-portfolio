@@ -10,9 +10,18 @@ const ptBR = {
   p_intro_iv: "Tenho especial interesse em design centrado no usuário, branding e produtos digitais que conectam estratégia, usabilidade e estética.",
   p_intro_v: "Acredito que um bom design vai além do visual — trata-se de compreender as necessidades dos usuários e entregar experiências significativas alinhadas aos objetivos do negócio.",
 
+  //habilities
+  exchange_program: "Intercâmbio",
+  product_design: "Design de produtos",
+  beyond_visuals: "Além do design",
+
+  p_exchange_program: "No Canadá, desenvolvi habilidades técnicas e de comunicação.",
+  p_product_design: "Tenho interesse em design centrado no usuário, branding e produtos digitais que combinam estratégia, usabilidade e estética.",
+  p_beyond_visuals: "Acredito que um ótimo design vai além do visual — trata-se de compreender as necessidades dos usuários e entregar experiências significativas.",
+
   //cards
   tools: "Ferramentas",
-  p_communication: "Comunicação",
+  communication: "Comunicação",
 
   p_designer: "Aplico princípios de design centrado no usuário para criar experiências digitais intuitivas e bem estruturadas. Minhas habilidades incluem compreender as necessidades dos usuários, organizar informações, projetar fluxos de usuário, wireframes e interfaces com foco em usabilidade, hierarquia visual e consistência.",
   p_tools: "Trabalho principalmente com o Figma ao longo de todo o meu processo de design, desde wireframes iniciais até interfaces e protótipos de alta fidelidade. Atualmente, estou aprendendo a usar as ferramentas da Adobe e continuo aberta a explorar novas ferramentas e tecnologias que possam apoiar e aprimorar meu fluxo de trabalho em design.",
@@ -20,7 +29,7 @@ const ptBR = {
 
   //main project
   main_project: "Projeto principal",
-  p_main_project_i: "",
+  p_main_project_i: "Lúmen é um aplicativo mobile de planejamento de viagens criado para simplificar e centralizar todo o processo de organização. O projeto teve como foco reduzir a fragmentação ao reunir todas as informações da viagem em um único lugar, utilizando IA para gerar itinerários personalizados sem abrir mão da personalização manual. Outro ponto importante foi incentivar a colaboração em viagens em grupo e criar uma experiência fluida com a integração de plataformas confiáveis de reserva.",
 
   p_cctb: "Este redesign teve como objetivo melhorar a usabilidade na experiência do portal do estudante. O foco foi simplificar a navegação, eliminar elementos confusos e não funcionais e aprimorar a hierarquia da informação para criar uma interface mais intuitiva e eficiente.",
   p_healthy: "Este projeto teve como foco simplificar o gerenciamento de medicamentos e consultas médicas. O principal objetivo foi criar um sistema claro, organizado e acessível, com lembretes que ajudem os usuários a manter a consistência em seus tratamentos.",

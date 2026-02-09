@@ -3,7 +3,7 @@
   display: grid;
   gap: var(--space-3);
   grid-template-columns: repeat(3, 1fr);
-  align-items: center;
+  align-items: stretch;
 }
 
 .card-container>* {
@@ -13,7 +13,7 @@
 .card-title {
   display: flex;
   align-items: center;
-  gap: var(--space-2);
+  gap: var(--space-3);
 }
 
 .card {
@@ -27,6 +27,19 @@
   border-radius: var(--radius-xl);
 
   box-shadow: var(--shadow-md);
+}
+
+/* emphasis card */
+.emphasis-card {
+  background-color: var(--color-contrast);
+  border: 1px solid var(--color-contrast-contrast);
+  border-radius: var(--radius-x);
+  box-shadow: var(--shadow-sm);
+  transition: 0.3s ease, transform 0.2s ease;
+}
+
+.emphasis-card:hover {
+  border: 1px solid var(--color-purple);
 }
 
 /* button */
@@ -49,8 +62,9 @@
 
 .btn--primary:hover {
   background: var(--color-secondary);
-  color: var(--color-base-text);
+  color: var(--color-offwhite);
 }
+
 
 /* images */
 .img-300 {
@@ -93,18 +107,29 @@
   background-color: #dcc7ff;
 }
 
-/* emphasis card */
-.emphasis-card {
-  background-color: var(--color-contrast);
-  border: 1.1px solid var(--color-contrast-contrast);
-  border-radius: var(--radius-x);
-  box-shadow: var(--shadow-sm);
-  transition: 0.3s ease, transform 0.2s ease;
-}
-
 .project-tag {
   width: fit-content;
   padding: var(--space-1) var(--space-2);
   border-radius: var(--radius-xl);
-  background-color: var(--color-lilac);
+  transition: 0.3s ease, transform 0.2s ease;
+
+  background-color: var(--tags-bg-color);
+  color: var(--tags-text-color);
+
+  cursor: default;
+}
+
+.project-tag:hover {
+  background-color: var(--tags-bg-hover-color);
+  color: var(--tags-text-hover-color);
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .btn {
+    width: 100%;
+  }
 }

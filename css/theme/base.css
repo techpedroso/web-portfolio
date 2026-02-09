@@ -13,12 +13,15 @@
 :root {
     /*Theme colors*/
     --color-brown: #6F4E37;
+    --color-purple-plus: #6736bd;
     --color-purple: #9c6af1;
     --color-lilac: #E2D9F3;
     --color-offwhite: #F7F5F2;
     --color-offwhiteplus: #F2EFE9;
     --color-offwhiteplus-contrast: #CFCFCF;
     --color-darkgray: #1E1E1E;
+    --color-normalgray: #2b2a2a;
+    --color-gray: #6A7181;
 
     --color-blur: ;
 
@@ -55,16 +58,26 @@
 
 :root[data-theme="light"] {
     --color-background: var(--color-offwhite);
+
     --color-primary: var(--color-lilac);
     --color-secondary: var(--color-purple);
 
-    --color-base-text: var(--color-offwhite);
+    --color-base-text: var(--color-gray);
     --color-contrast-text: var(--color-darkgray);
 
     --color-contrast: var(--color-offwhiteplus);
     --color-contrast-contrast: var(--color-offwhiteplus-contrast);
 
     --color-btn-text: var(--color-darkgray);
+
+    /* project title */
+    --project-title: var(--color-darkgray);
+    
+    /* project tags */
+    --tags-text-color: var(--color-darkgray);
+    --tags-text-hover-color: var(--color-offwhite);
+    --tags-bg-color: var(--color-lilac);
+    --tags-bg-hover-color: var(--color-purple);
 
     --color-blur: rgba(255, 255, 255, 0.5);
 
@@ -74,11 +87,26 @@
 
 :root[data-theme="dark"] {
     --color-background: var(--color-darkgray);
+    
     --color-primary: var(--color-lilac);
     --color-secondary: var(--color-purple);
+
     --color-base-text: var(--color-offwhite);
     --color-contrast-text: var(--color-offwhite);
+
+    --color-contrast: var(--color-normalgray);
+    --color-contrast-contrast: var(--color-gray);
+
     --color-btn-text: var(--color-darkgray);
+
+    /* project title */
+    --project-title: var(--color-offwhite);
+
+    /* project tags */
+    --tags-text-color: var(--color-darkgray);
+    --tags-text-hover-color: var(--color-offwhite);
+    --tags-bg-color: var(--color-lilac);
+    --tags-bg-hover-color: var(--color-purple);
 
     --color-blur: rgba(0, 0, 0, 0.1);
 
