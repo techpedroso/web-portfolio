@@ -1,39 +1,49 @@
 const ptBR = {
-  a_about: "Sobre mim",
+  a_about: "Sobre",
   a_contact: "Contato",
-  a_project_portfolio: "Portfolio de projetos",
+  a_project_portfolio: "Portfólio",
 
-  //Introduction section
-  p_intro_i: "Sou designer UX/UI baseada em Vancouver, com experiência em ensino e em cargos de atendimento ao cliente, o que fortaleceu minhas habilidades de comunicação, empatia e resolução de problemas.Sou designer UX/UI baseada em Vancouver, com experiência em ensino e em cargos de atendimento ao cliente, o que fortaleceu minhas habilidades de comunicação, empatia e resolução de problemas.",
-  p_intro_ii: "Concluí recentemente um Diploma em Design UX/UI e trabalhei em projetos que envolveram pesquisa com usuários, wireframes, prototipação, testes de usabilidade e design systems. Minha abordagem combina criatividade com pensamento analítico, sempre mantendo a acessibilidade e a inclusão no centro do processo.",
-  p_intro_iii: "Por meio do programa de intercâmbio que estou realizando no Canadá, essa experiência me permitiu desenvolver não apenas habilidades técnicas, mas também habilidades de comunicação.",
-  p_intro_iv: "Tenho especial interesse em design centrado no usuário, branding e produtos digitais que conectam estratégia, usabilidade e estética.",
-  p_intro_v: "Acredito que um bom design vai além do visual — trata-se de compreender as necessidades dos usuários e entregar experiências significativas alinhadas aos objetivos do negócio.",
+  // Introduction section
+  p_intro_i: "Sou uma designer UX/UI baseada em Vancouver, com experiência em ensino e funções voltadas ao atendimento ao cliente, o que fortaleceu minhas habilidades de comunicação, empatia e resolução de problemas.",
+  p_intro_ii: "Recentemente concluí um Diploma em UX/UI Design e trabalhei em projetos envolvendo pesquisa com usuários, wireframes, prototipação, testes de usabilidade e sistemas de design. Minha abordagem combina criatividade com pensamento analítico, sempre mantendo acessibilidade e inclusão como prioridades.",
+  p_intro_iii: "Durante meu programa de intercâmbio no Canadá, tive a oportunidade de desenvolver não apenas habilidades técnicas, mas também fortes competências de comunicação ao atuar em contextos diversos e internacionais.",
+  p_intro_iv: "Tenho um interesse especial em design centrado no usuário, branding e produtos digitais que equilibram estratégia, usabilidade e estética.",
+  p_intro_v: "Design vai além do visual — trata-se de compreender as reais necessidades dos usuários e transformá-las em experiências significativas, alinhadas também aos objetivos do negócio.",
 
-  //habilities
-  exchange_program: "Intercâmbio",
-  product_design: "Design de produtos",
-  beyond_visuals: "Além do design",
+  // abilities
+  designing_experiences: "Criando experiências de design que <span class=\"color-emphasis\">fazem sentido</span>",
 
-  p_exchange_program: "No Canadá, desenvolvi habilidades técnicas e de comunicação.",
-  p_product_design: "Tenho interesse em design centrado no usuário, branding e produtos digitais que combinam estratégia, usabilidade e estética.",
-  p_beyond_visuals: "Acredito que um ótimo design vai além do visual — trata-se de compreender as necessidades dos usuários e entregar experiências significativas.",
+  title_card_i: "Pesquisa com Usuários",
+  title_card_ii: "Sistemas de Design",
+  title_card_iii: "Design de Produto",
+  title_card_iv: "Wireframes e Prototipação",
 
-  //cards
+  p_card_i: "Compreendendo as reais necessidades dos usuários",
+  p_card_ii: "Criando sistemas visuais coesos",
+  p_card_iii: "Construindo componentes escaláveis",
+  p_card_iv: "Protótipos interativos para simular fluxos de usuário.",
+
+  // cards
+  skills_title: "Onde o Design <span class=\"color-emphasis\">Encontra as Pessoas</span>",
+  skills_p: "Uma combinação de pensamento em UX, ferramentas práticas e comunicação clara.",
+
+  // title card
   tools: "Ferramentas",
   communication: "Comunicação",
 
-  p_designer: "Aplico princípios de design centrado no usuário para criar experiências digitais intuitivas e bem estruturadas. Minhas habilidades incluem compreender as necessidades dos usuários, organizar informações, projetar fluxos de usuário, wireframes e interfaces com foco em usabilidade, hierarquia visual e consistência.",
-  p_tools: "Trabalho principalmente com o Figma ao longo de todo o meu processo de design, desde wireframes iniciais até interfaces e protótipos de alta fidelidade. Atualmente, estou aprendendo a usar as ferramentas da Adobe e continuo aberta a explorar novas ferramentas e tecnologias que possam apoiar e aprimorar meu fluxo de trabalho em design.",
-  p_communication: "Por meio da minha experiência trabalhando com atendimento ao cliente e como professora de inglês, desenvolvi fortes habilidades de comunicação e a capacidade de explicar ideias com clareza, ouvir ativamente e adaptar minha abordagem a diferentes pessoas e contextos. Essas experiências influenciam fortemente a forma como colaboro e projeto com empatia.",
+  p_designer: "Aplico princípios de design centrado no usuário para criar experiências digitais intuitivas e bem estruturadas. Minhas habilidades incluem compreender necessidades dos usuários, organizar informações e projetar fluxos, wireframes e interfaces com foco em usabilidade, hierarquia visual e consistência.",
+  p_tools: "Trabalho principalmente com o Figma ao longo de todo o processo de design, desde wireframes iniciais até interfaces e protótipos de alta fidelidade. Atualmente estou aprendendo a utilizar ferramentas da Adobe e me mantenho aberta a explorar novas tecnologias que possam apoiar e aprimorar meu fluxo de trabalho.",
+  p_communication: "Por meio da minha experiência em atendimento ao cliente e como professora de inglês, desenvolvi fortes habilidades de comunicação e a capacidade de explicar ideias com clareza, ouvir ativamente e adaptar minha abordagem a diferentes pessoas e contextos. Essas experiências influenciam diretamente a forma como colaboro e projeto com empatia.",
 
-  //main project
+  // main project
   main_project: "Projeto principal",
-  p_main_project_i: "Lúmen é um aplicativo mobile de planejamento de viagens criado para simplificar e centralizar todo o processo de organização. O projeto teve como foco reduzir a fragmentação ao reunir todas as informações da viagem em um único lugar, utilizando IA para gerar itinerários personalizados sem abrir mão da personalização manual. Outro ponto importante foi incentivar a colaboração em viagens em grupo e criar uma experiência fluida com a integração de plataformas confiáveis de reserva.",
+  p_main_project_i: "TravelGo é um aplicativo mobile de planejamento de viagens desenvolvido para simplificar e centralizar a experiência de organização da viagem.",
+  p_main_project_ii: "O projeto teve como foco reduzir a fragmentação ao reunir todos os detalhes da viagem em um único lugar, utilizando IA para gerar roteiros personalizados, sem abrir mão da personalização manual.",
+  p_main_project_iii: "Um dos principais focos foi possibilitar a colaboração em viagens em grupo e criar um fluxo contínuo por meio da integração com plataformas de reserva confiáveis.",
 
-  p_cctb: "Este redesign teve como objetivo melhorar a usabilidade na experiência do portal do estudante. O foco foi simplificar a navegação, eliminar elementos confusos e não funcionais e aprimorar a hierarquia da informação para criar uma interface mais intuitiva e eficiente.",
-  p_healthy: "Este projeto teve como foco simplificar o gerenciamento de medicamentos e consultas médicas. O principal objetivo foi criar um sistema claro, organizado e acessível, com lembretes que ajudem os usuários a manter a consistência em seus tratamentos.",
-  p_webranding: "WeBranding é uma plataforma digital projetada para ajudar novos empreendedores a construir uma identidade de marca forte do zero. O projeto teve como foco guiar os usuários por um processo estruturado, passo a passo, que vai além do visual, enfatizando propósito, valores e posicionamento da marca para criar identidades consistentes e significativas."
+  p_cctb: "Este redesign teve como objetivo melhorar a usabilidade da experiência no portal do estudante. O foco foi simplificar a navegação, eliminar elementos confusos ou não funcionais e aprimorar a hierarquia da informação para criar uma interface mais intuitiva e eficiente.",
+  p_healthy: "Este projeto teve como foco simplificar o gerenciamento de medicamentos e consultas médicas. O principal objetivo foi criar um sistema claro, organizado e acessível, com lembretes que ajudam os usuários a manter a consistência em seus tratamentos.",
+  p_webranding: "WeBranding é uma plataforma digital criada para ajudar novos empreendedores a construir uma identidade de marca sólida desde o início. O projeto focou em guiar os usuários por um processo estruturado, passo a passo, que vai além do visual, enfatizando propósito, valores e posicionamento da marca para criar identidades consistentes e significativas."
 };
 
 export default ptBR;

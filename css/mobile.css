@@ -1,18 +1,38 @@
 /* Estilos básicos para o botão hambúrguer (escondido no desktop) */
 .mobile-menu-btn {
-    display: none;
-    cursor: pointer;
-    background: none;
-    border: none;
-    flex-direction: column;
-    gap: 5px;
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #333;
-    transition: 0.3s;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  transition: 0.3s;
+}
+
+.impact-phrase-desktop {
+  display: block;
+  font-size: 16px;
+}
+
+.impact-phrase-mobile {
+  display: none;
+  font-size: 12px;
+}
+
+.impact-phrase-desktop, .impact-phrase-mobile {
+  font-family: 'DM Serif Display';
+  font-weight: 300;
+  font-style: italic;
+
+  text-align: center;
+
+  letter-spacing: 3px;
 }
 
 @media (max-width: 768px) {
@@ -31,7 +51,8 @@
 
     background-color: var(--color-background);
 
-    display: none; /* 🔥 ESCONDIDO */
+    display: none;
+    /* 🔥 ESCONDIDO */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -42,10 +63,19 @@
   }
 
   .nav-container.active {
-    display: flex; /* 🔥 APARECE */
+    display: flex;
+    /* 🔥 APARECE */
   }
 
   .divider {
     display: none;
+  }
+
+  .impact-phrase-desktop {
+    display: none;
+  }
+
+  .impact-phrase-mobile {
+    display: block;
   }
 }

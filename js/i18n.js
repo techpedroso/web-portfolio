@@ -19,7 +19,7 @@ function initI18n() {
     elements.forEach(el => {
       const key = el.getAttribute("data-i18n");
       if (translationSource && translationSource[key]) {
-        el.textContent = translationSource[key];
+        el.innerHTML  = translationSource[key];
       }
     });
   };
