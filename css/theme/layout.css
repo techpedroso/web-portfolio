@@ -158,4 +158,9 @@
   .project-tag-container {
     font-size: 12px;
   }
+
+  .mobile-div-buttons {
+    display: flex;
+    justify-content: center;
+  }
 }
