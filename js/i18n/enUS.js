@@ -1,7 +1,7 @@
 ﻿const enUS = {
   a_about: "About",
   a_contact: "Contact",
-  a_project_portfolio: "Project portfolio",
+  a_project_portfolio: "Portfolio",
 
   //Introduction section
   p_intro_i: "I’m a UX/UI designer based in Vancouver, with a background in teaching and customer-facing roles that strengthened my communication, empathy, and problem-solving skills.",
@@ -41,6 +41,9 @@
   p_main_project_ii: "The project focused on reducing fragmentation by bringing all travel details into one place, using AI to generate personalized itineraries while still allowing manual customization.",
   p_main_project_iii: "A key focus was enabling collaboration for group trips and creating a seamless flow by integrating trusted booking platforms.",
 
+  //projects
+  projects_title: "Design with <span class=\"color-emphasis\">Purpose</span>",
+  projects_p: "I design digital experiences focused on clarity, usability, and intention. My work combines research, strategy, and visual design to turn complex problems into simple, intuitive solutions.",
 
   p_cctb: "This redesign aimed to improve usability in the student portal experience. The focus was on simplifying navigation, eliminating confusing and non-functional elements, and improving information hierarchy to create a more intuitive and efficient interface.",
   p_healthy: "This project focused on simplifying the management of medications and medical appointments. The main goal was to create a clear, organized, and accessible system with reminders that help users stay consistent with their treatments.",

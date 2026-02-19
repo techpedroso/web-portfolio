@@ -41,6 +41,10 @@ const ptBR = {
   p_main_project_ii: "O projeto teve como foco reduzir a fragmentação ao reunir todos os detalhes da viagem em um único lugar, utilizando IA para gerar roteiros personalizados, sem abrir mão da personalização manual.",
   p_main_project_iii: "Um dos principais focos foi possibilitar a colaboração em viagens em grupo e criar um fluxo contínuo por meio da integração com plataformas de reserva confiáveis.",
 
+  //
+  projects_title: "Design com <span class=\"color-emphasis\">Propósito</span>",
+  projects_p: "Eu projeto experiências digitais com foco em clareza, usabilidade e intenção. Meu trabalho combina pesquisa, estratégia e design visual para transformar problemas complexos em soluções simples e intuitivas.",
+
   p_cctb: "Este redesign teve como objetivo melhorar a usabilidade da experiência no portal do estudante. O foco foi simplificar a navegação, eliminar elementos confusos ou não funcionais e aprimorar a hierarquia da informação para criar uma interface mais intuitiva e eficiente.",
   p_healthy: "Este projeto teve como foco simplificar o gerenciamento de medicamentos e consultas médicas. O principal objetivo foi criar um sistema claro, organizado e acessível, com lembretes que ajudam os usuários a manter a consistência em seus tratamentos.",
   p_webranding: "WeBranding é uma plataforma digital criada para ajudar novos empreendedores a construir uma identidade de marca sólida desde o início. O projeto focou em guiar os usuários por um processo estruturado, passo a passo, que vai além do visual, enfatizando propósito, valores e posicionamento da marca para criar identidades consistentes e significativas."
