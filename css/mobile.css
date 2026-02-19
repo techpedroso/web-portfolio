@@ -1,4 +1,3 @@
-/* Estilos básicos para o botão hambúrguer (escondido no desktop) */
 .mobile-menu-btn {
   display: none;
   cursor: pointer;
@@ -51,20 +50,25 @@
 
     background-color: var(--color-background);
 
-    display: none;
-    /* 🔥 ESCONDIDO */
+    /* hide */
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     gap: 20px;
 
+    /* Estado inicial */
+    transform: translateX(100%);
+    transition: transform 0.35s ease;
+    
+    will-change: transform; /* melhora performance */
     z-index: 9;
   }
 
   .nav-container.active {
-    display: flex;
-    /* 🔥 APARECE */
+    /* display */
+    /* display: flex; */
+    transform: translateX(0);
   }
 
   .divider {

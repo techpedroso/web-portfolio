@@ -41,7 +41,7 @@ const ptBR = {
   p_main_project_ii: "O projeto teve como foco reduzir a fragmentação ao reunir todos os detalhes da viagem em um único lugar, utilizando IA para gerar roteiros personalizados, sem abrir mão da personalização manual.",
   p_main_project_iii: "Um dos principais focos foi possibilitar a colaboração em viagens em grupo e criar um fluxo contínuo por meio da integração com plataformas de reserva confiáveis.",
 
-  //
+  // project cards
   projects_title: "Design com <span class=\"color-emphasis\">Propósito</span>",
   projects_p: "Eu projeto experiências digitais com foco em clareza, usabilidade e intenção. Meu trabalho combina pesquisa, estratégia e design visual para transformar problemas complexos em soluções simples e intuitivas.",
 
